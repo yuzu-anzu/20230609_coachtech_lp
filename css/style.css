@@ -1,9 +1,5 @@
 @media screen and (min-width:768px) {}
 
-* {
-    outline: 1px solid red !important;
-}
-
 .header-nav-title {
     margin-top: 20px;
     display: flex;
@@ -88,22 +84,25 @@
 .news-warp__head {
     font-family: 'Indie Flower', cursive;
     color: #CC0099;
-    margin-right: 70px
+    margin-left: 20%;
 }
 
 .news-warp-h2 {
     margin-bottom: 50px;
-    text-align: end;
-    margin-right: 240px;
+    text-align: left;
+    margin-left: 20%;
 }
 
 .news-warp-list {
     border-top: solid 2px darkgray; 
     border-bottom: solid 2px darkgray;
-    margin-left: 0%;
+    text-align: left;
     padding: 0;
     display: list-item;
     list-style: none;
+    margin: 8%;
+    width: 70%;
+    font-size: 18px;
 }
 
 li {
@@ -147,11 +146,12 @@ li {
 .about-item {
     padding-top: 50px;
     display: flex;
-    margin-left: 3%;
+    margin-left: 10%;
 }
 
 .about-item-text {
-    
+    margin-left: 5%;
+    font-size: 18px;
 }
 
 .about-item__img {
@@ -160,6 +160,7 @@ li {
 
 .about-item__img img {
     width: 400px;
+    margin-left: 60%;
 }
 
 .service {
@@ -330,7 +331,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    left: 38.6%;
+    left: 38.8%;
     z-index: 1;
 }
 
@@ -344,7 +345,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    right: 23.2%;
+    right: 27.1%;
     z-index: 1;
 }
 
@@ -463,7 +464,7 @@ li {
     left: 17%;
     color: ghostwhite;
     font-size: 30px;
-    margin-top: 70px;
+    margin-top: 150px;
 }
 
 .bottom-right-img {
@@ -482,7 +483,7 @@ li {
     right: 10%;
     font-size: 30px;
     color: ghostwhite;
-    margin-top: 70px;
+    margin-top: 150px;
 }
 
 .bottom-practoce {
@@ -498,7 +499,7 @@ li {
     width: 300px;
     height: 40px;
     border-right: solid 2px #990099;
-    margin-left: 12%;
+    margin-left: 30%;
     margin-bottom: 50px;
 }
 
@@ -522,7 +523,7 @@ li {
 
 .copyright {
     text-align: center;
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
     background-color: lightgrey;
 }
 
