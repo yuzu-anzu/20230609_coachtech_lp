@@ -146,12 +146,13 @@ li {
 
 .about-item {
     padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
-    margin-left: 10%;
+    justify-content: space-between;
 }
 
 .about-item-text {
-    margin-left: 5%;
     font-size: 18px;
 }
 
@@ -161,7 +162,7 @@ li {
 
 .about-item__img img {
     width: 400px;
-    margin-left: 60%;
+
 }
 
 .service {
@@ -215,15 +216,15 @@ li {
 }
 
 .box2-grid__parent-lead {
-    margin: 5% 15% 15% 5%;
+    padding: 10%;
     color: aliceblue;
     width: auto;
 }
 
 .box2-grid__parent-text {
-    margin-left: 50px;
     color: aliceblue;
     text-align: center;
+    font-size: 15px;
 }
 
 .box3 {
@@ -240,13 +241,13 @@ li {
 }
 
 .box3-grid__parent-lead {
-    margin: 5% 15% 15% 5%;
+    padding: 10%;
     color: aliceblue;
     width: auto;
 }
 
 .box3-grid__parent-text {
-    margin-left: 50px;
+    font-size: 15px;
     color: aliceblue;
     text-align: center;
 }
