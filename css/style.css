@@ -1,5 +1,9 @@
 @media screen and (min-width:768px) {}
 
+* {
+    outline: 1px solid red !important;
+}
+
 .header-nav-title {
     margin-top: 20px;
     display: flex;
@@ -147,24 +151,24 @@ li {
 }
 
 .about-item {
-    padding-top: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .about-item-text {
     font-size: 18px;
+    line-height: 25px;
 }
 
 .about-item__img {
     margin-bottom: 50px;
+    margin-right: 5%;
 }
 
 .about-item__img img {
     width: 400px;
-
 }
 
 .service-title {
@@ -184,9 +188,9 @@ li {
 
 .grid__parent {
     display: grid;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 200px 200px;
     grid-template-columns: 1fr 1fr;
-    margin: 50px 50px;
+    margin: 50px 90px;
 }
 
 .box1 {
@@ -203,20 +207,19 @@ li {
 
 .box2-grid__parent-img img {
     float: left;
-    margin-left: 50px;
-    margin-top: 30px;
-    width: 120px;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 100px;
 }
 
 .box2-grid {
-    margin-left: 32%;
+    margin-left: 33%;
 }
 
 .box2-grid__parent-lead {
-    padding-top: 10%;
+    padding-top: 12%;
     margin-bottom: 15px;
     color: aliceblue;
-    width: auto;
 }
 
 .box2-grid__parent-text {
@@ -233,20 +236,19 @@ li {
 
 .box3-grid__parent-img img {
     float: left;
-    margin-left: 50px;
-    margin-top: 30px;
-    width: 120px;
+    margin-left: 20px;
+    width: 100px;
 }
 
 .box3-grid {
-    margin-left: 32%;
+    margin-left: 33%;
 }
 
 .box3-grid__parent-lead {
-    padding-top: 10%;
+    padding-top: 15px;
+    margin-top: 30px;
     margin-bottom: 15px;
     color: aliceblue;
-    width: auto;
 }
 
 .box3-grid__parent-text {
@@ -264,15 +266,15 @@ li {
 }
 
 .grid__parent-img img {
-    width: 130px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .grid__parent-lead {
     color: aliceblue;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .grid__parent-text {
@@ -288,7 +290,7 @@ li {
 }
 
 .content-blog {
-    padding: 50px;
+    margin: 5px;
 }
 
 .content-blog_head {
@@ -305,13 +307,12 @@ li {
 .blog-card {
     display: flex;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: center;
 }
 
 .card {
     width: 23%;
-    margin: 5%;
+    margin: 35px;
     background-color: ghostwhite;
     border-radius: 10px 10px;
     text-align: center;
@@ -326,7 +327,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    left: 8%;
+    left: 11%;
     z-index: 1;
 }
 
@@ -339,7 +340,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    left: 38.8%;
+    left: 38.5%;
     z-index: 1;
 }
 
@@ -352,7 +353,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    right: 26.4%;
+    right: 29.8%;
     z-index: 1;
 }
 
@@ -378,9 +379,9 @@ li {
 
 .content-tag {
     font-size: 10px;
-    text-align: right;
     display: flex;
     padding-bottom: 20px;
+    justify-content: space-around;
 
 }
 
