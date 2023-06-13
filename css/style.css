@@ -339,7 +339,6 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    left: 38.5%;
     z-index: 1;
 }
 
@@ -510,8 +509,19 @@ li {
 }
 
 .bottom-practoce__btn {
-    text-align: center;
     height: 100px;
+    display: contents;
+}
+
+.mail-img{
+    position: relative;
+}
+
+.mail-img img {
+    width: 20px;
+    position: absolute;
+    top: 26px;
+    left: 43.4%;
 }
 
 .mail-btn {
@@ -520,10 +530,8 @@ li {
     border-radius: 50px;
     background: linear-gradient(to right,#FF0099,#990099);
     border-width: thin;
-    text-align: center;
     box-shadow: 0 5px 0 rgba(108, 1, 76, 0.636);
-    display: block;
-    margin-top: 100px;
+    text-align: center;
     margin: auto;
 }
 
