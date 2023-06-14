@@ -509,23 +509,18 @@ li {
 }
 
 .bottom-practoce__btn {
-    height: 100px;
-    display: contents;
-}
-
-.mail-img{
     position: relative;
 }
 
-.mail-img img {
+.bottom-practoce__btn img {
     width: 20px;
     position: absolute;
     top: 26px;
-    left: 43.4%;
+    left: 42.7%;
 }
 
 .mail-btn {
-    width: 200px;
+    width: 250px;
     padding: 30px 0;
     border-radius: 50px;
     background: linear-gradient(to right,#FF0099,#990099);
